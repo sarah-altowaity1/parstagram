@@ -104,13 +104,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sarah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDj-l6-szR">
-                                                    <rect key="frame" x="10" y="453" width="44" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="10" y="453" width="47.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Baddie Alert" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVf-9I-MFb">
-                                                    <rect key="frame" x="62" y="453" width="93.5" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baddie Alert" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVf-9I-MFb">
+                                                    <rect key="frame" x="65.5" y="453" width="93.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -122,8 +122,8 @@
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gVf-9I-MFb" secondAttribute="bottom" constant="8" id="7Ix-YZ-ljQ"/>
                                                 <constraint firstItem="rDj-l6-szR" firstAttribute="top" secondItem="O6k-PV-LAD" secondAttribute="bottom" constant="10" id="TI9-o7-rMb"/>
                                                 <constraint firstItem="O6k-PV-LAD" firstAttribute="leading" secondItem="qJ6-QT-3lt" secondAttribute="leading" constant="10" id="mES-r9-VR4"/>
-                                                <constraint firstAttribute="trailing" secondItem="gVf-9I-MFb" secondAttribute="trailing" constant="8" id="me5-38-WfL"/>
                                                 <constraint firstItem="O6k-PV-LAD" firstAttribute="top" secondItem="qJ6-QT-3lt" secondAttribute="topMargin" constant="10" id="q3o-Lk-1LG"/>
+                                                <constraint firstItem="gVf-9I-MFb" firstAttribute="leading" secondItem="rDj-l6-szR" secondAttribute="trailing" constant="8" symbolic="YES" id="u6D-kf-bvm"/>
                                                 <constraint firstItem="gVf-9I-MFb" firstAttribute="top" secondItem="O6k-PV-LAD" secondAttribute="bottom" constant="10" id="x5k-Tq-Pse"/>
                                                 <constraint firstAttribute="trailing" secondItem="O6k-PV-LAD" secondAttribute="trailing" constant="10" id="z8G-PJ-Ad0"/>
                                             </constraints>
