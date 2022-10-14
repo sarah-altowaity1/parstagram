@@ -18,6 +18,7 @@
 		6A74823A28F89F6200D917E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A74823928F89F6200D917E8 /* LoginViewController.swift */; };
 		6A74823C28F89F9600D917E8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A74823B28F89F9600D917E8 /* FeedViewController.swift */; };
 		6A74824028F8D9DD00D917E8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A74823F28F8D9DD00D917E8 /* CameraViewController.swift */; };
+		6A74824228F961D900D917E8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A74824128F961D900D917E8 /* PostCell.swift */; };
 		CBD03A20DBE288FAB43AB4A9 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6006CEB85FDD4EB89D79B765 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		6A74823928F89F6200D917E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A74823B28F89F9600D917E8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6A74823F28F8D9DD00D917E8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6A74824128F961D900D917E8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				6A74820928F89AA300D917E8 /* AppDelegate.swift */,
 				6A74820B28F89AA300D917E8 /* SceneDelegate.swift */,
 				6A74820F28F89AA300D917E8 /* Main.storyboard */,
+				6A74824128F961D900D917E8 /* PostCell.swift */,
 				6A74821228F89AA600D917E8 /* Assets.xcassets */,
 				6A74821428F89AA600D917E8 /* LaunchScreen.storyboard */,
 				6A74821728F89AA600D917E8 /* Info.plist */,
@@ -337,6 +340,7 @@
 				6A74820A28F89AA300D917E8 /* AppDelegate.swift in Sources */,
 				6A74823C28F89F9600D917E8 /* FeedViewController.swift in Sources */,
 				6A74820C28F89AA300D917E8 /* SceneDelegate.swift in Sources */,
+				6A74824228F961D900D917E8 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
