@@ -10,6 +10,7 @@ import Parse
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    
     var posts = [PFObject]()
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
