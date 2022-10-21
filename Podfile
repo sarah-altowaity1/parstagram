@@ -9,4 +9,5 @@ target 'Parstagram' do
   # This pulls in the latest version of Alamofire. IF you have an older version of Xcode, please use version 4.0 or check their documentation!
   pod 'AlamofireImage'
   pod 'Parse'
+  pod 'MessageInputBar'
 end
